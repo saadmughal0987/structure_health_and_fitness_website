@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="assets/images/fg-images/favicon.ico" />
+  <title>Why Structure Health & Fitness - Structure Health & Fitness</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/why-us-style.css" />
+</head>
+
+<body>
+  <header id="header">
+    <a id="logo" href="index.html">
+      <img src="assets/images/fg-images/logo.webp" alt="Logo" />
+    </a>
+    <button class="menu-toggle" id="menuToggle" onclick="toggleMenu()">☰ Menu</button>
+
+    <nav id="navbar">
+      <ul>
+        <a onclick="toggleMenu()" href="why-us.html">
+          <li>Why Us</li>
+        </a>
+        <a onclick="toggleMenu()" href="join-us-membership.html">
+          <li>Membership</li>
+        </a>
+        <a onclick="toggleMenu()" href="our-branches.html">
+          <li>Our Branches</li>
+        </a>
+        <a onclick="toggleMenu()" href="contact-us.html">
+          <li>Contact</li>
+        </a>
+      </ul>
+      <a onclick="toggleMenu()" href="join-us-membership.html" class="btn-container">
+        <button>Join Now</button>
+      </a>
+    </nav>
+  </header>
+
+  <main onclick="closeMenu()">
+
+    <div class="hero-section">
+      <div class="hero-content">
+        <h1>Why Structure Health & Fitness</h1>
+        <div class="yellow-underline"></div>
+      </div>
+    </div>
+
+    <div class="bottom-line"></div>
+
+    <section class="why-section">
+      <div class="why-text">
+        <p>
+          We know you have lots of choices when it comes to fitness options in a coaching team and gym.
+          But here’s why we believe we have pioneered a new way of training which delivers better results
+          for our members.
+        </p>
+      </div>
+
+      <div class="why-points">
+        <p>+ <strong>Our Model At Structure Health & Fitness</strong></p>
+        <hr />
+        <p>+ <strong>More Personalized Attention. Better Professional Expertise.</strong></p>
+        <hr />
+        <p>+ <strong>We Believe In People Power. Yours & Ours</strong></p>
+        <hr />
+      </div>
+
+      <div class="gym-card-section">
+        <div class="gym-card">
+          <div class="card-title">TRAINING TEAM</div>
+          <img src="/assets/images/fg-images/why-us-image1.webp" alt="Gym 1" />
+        </div>
+
+        <div class="gym-card">
+          <div class="card-title">OUR STORY</div>
+          <img src="/assets/images/fg-images/why-us-image2.webp" alt="Gym 2" />
+        </div>
+
+        <div class="gym-card">
+          <div class="card-title">FAQ'S</div>
+          <img src="/assets/images/fg-images/why-us-image3.webp" alt="Gym 3" />
+        </div>
+
+        <div class="gym-card">
+          <div class="card-title">GYM FACULITY</div>
+          <img src="/assets/images/fg-images/why-us-image4.webp" alt="Gym 4" />
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-about">
+            <h2>Structure Health & Fitness</h2>
+            <p>Structure Health & Fitness is The Best Gym For Ladies & Gents Located In Gulberg Lahore,
+              Pakistan. A Top-notch Health Fitness Club With Experienced Trainers & Latest Gym Equipment.
+            </p>
+            <div class="footer-follow">
+              <h3>Follow Us</h3>
+              <div class="social-icons">
+                <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://x.com/"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
+                <a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="footer-links">
+            <h3>Useful Links</h3>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="our-branches.html">Our Branches</a></li>
+              <li><a href="why-us.html">Why Us</a></li>
+              <li><a href="#">Trainers</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="contact-us.html">Contact Us</a></li>
+              <li><a href="#">Work With Us</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-hours">
+            <h3>Opening Hours</h3>
+            <table class="hours-table">
+              <tr class="header-row">
+                <th>
+                  <button class="branch-button active" data-branch="gulberg">Gulberg Lahore</button>
+                </th>
+                <th>
+                  <button class="branch-button" data-branch="dha">DHA Lahore</button>
+                </th>
+                <th>
+                  <button class="branch-button" data-branch="johar">Johar Town Lahore</button>
+                </th>
+              </tr>
+              <tr>
+                <td colspan="3" style="padding: 0;">
+                  <div class="hours-content">
+
+                    <div class="branch-schedule active" id="gulberg-schedule">
+                      <div class="schedule-item">
+                        <span class="schedule-day">Monday</span>
+                        <span class="schedule-time">06:00 AM - 11:00 PM</span>
+                      </div>
+                      <div class="schedule-item">
+                        <span class="schedule-day">Tuesday</span>
+                        <span class="schedule-time">06:00 AM - 11:00 PM</span>
+                      </div>
+                      <div class="schedule-item">
+                        <span class="schedule-day">Wednesday</span>
+                        <span class="schedule-time">06:00 AM - 11:00 PM</span>
+                      </div>
+                      <div class="schedule-item">
+                        <span class="schedule-day">Thursday</span>
+                        <span class="schedule-time">06:00 AM - 11:00 PM</span>
+                      </div>
+                      <div class="schedule-item">
+                        <span class="schedule-day">Friday</span>
+                        <span class="schedule-time">06:00 AM - 11:00 PM</span>
+                      </div>
+                      <div class="schedule-item">
+                        <span class="schedule-day">Saturday</span>
+                        <span class="schedule-time">09:00 AM - 10:00 PM</span>
+                      </div>
+                      <div class="schedule-item">
+                        <span class="schedule-day">Sunday</span>
+                        <span class="schedule-time">10:00 AM - 07:00 PM</span>
+                      </div>
+                    </div>
+
+
+                    <div class="branch-schedule" id="dha-schedule">
+                      <div class="schedule-item">
+                        <span class="schedule-day">Monday</span>
+                        <span class="schedule-time">07:00 AM - 10:00 PM</span>
+                      </div>
+                      <div class="schedule-item">
+                        <span class="schedule-day">Tuesday</span>
+                        <span class="schedule-time">07:00 AM - 10:00 PM</span>
+                      </div>
+                      <div class="schedule-item">
+                        <span class="schedule-day">Wednesday</span>
+                        <span class="schedule-time">07:00 AM - 10:00 PM</span>
+                      </div>
+                      <div class="schedule-item">
+                        <span class="schedule-day">Thursday</span>
+                        <span class="schedule-time">07:00 AM - 10:00 PM</span>
+                      </div>
+                      <div class="schedule-item">
+                        <span class="schedule-day">Friday</span>
+                        <span class="schedule-time">07:00 AM - 10:00 PM</span>
+                      </div>
+                      <div class="schedule-item">
+                        <span class="schedule-day">Saturday</span>
+                        <span class="schedule-time">10:00 AM - 10:00 PM</span>
+                      </div>
+                      <div class="schedule-item">
+                        <span class="schedule-day">Sunday</span>
+                        <span class="schedule-time">12:00 PM - 07:00 PM</span>
+                      </div>
+                    </div>
+
+
+                    <div class="branch-schedule" id="johar-schedule">
+                      <div class="schedule-item">
+                        <span class="schedule-day">Monday</span>
+                        <span class="schedule-time">06:00 AM - 10:00 PM</span>
+                      </div>
+                      <div class="schedule-item">
+                        <span class="schedule-day">Tuesday</span>
+                        <span class="schedule-time">06:00 AM - 10:00 PM</span>
+                      </div>
+                      <div class="schedule-item">
+                        <span class="schedule-day">Wednesday</span>
+                        <span class="schedule-time">06:00 AM - 10:00 PM</span>
+                      </div>
+                      <div class="schedule-item">
+                        <span class="schedule-day">Thursday</span>
+                        <span class="schedule-time">06:00 AM - 10:00 PM</span>
+                      </div>
+                      <div class="schedule-item">
+                        <span class="schedule-day">Friday</span>
+                        <span class="schedule-time">06:00 AM - 10:00 PM</span>
+                      </div>
+                      <div class="schedule-item">
+                        <span class="schedule-day">Saturday</span>
+                        <span class="schedule-time">10:00 AM - 09:00 PM</span>
+                      </div>
+                      <div class="schedule-item">
+                        <span class="schedule-day">Sunday</span>
+                        <span class="schedule-time">Closed</span>
+                      </div>
+                    </div>
+                  </div>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="footer-bottom">
+        <div class="container">
+          <p>Copyright © 2023 – 2024 |<span class="footer-bottom-hover"> Structure Health & Fitness</span></p>
+        </div>
+      </div>
+    </footer>
+  </main>
+  <script src="scripts/why-us-script.js">
+  </script>
+</body>
+
+</html>

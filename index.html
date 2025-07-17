@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Structure Health & Fitness</title>
+    <link rel="icon" href="assets/images/fg-images/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <link rel="stylesheet" href="styles/home-style.css" />
+
+</head>
+
+<body>
+    <header id="header">
+        <a id="logo" href="index.html">
+            <img src="assets/images/fg-images/logo.webp" alt="Logo" />
+        </a>
+        <button class="menu-toggle" id="menuToggle" onclick="toggleMenu()">☰ Menu</button>
+
+        <nav id="navbar">
+            <ul>
+                <a onclick="toggleMenu()" href="why-us.html">
+                    <li>Why Us</li>
+                </a>
+                <a onclick="toggleMenu()" href="join-us-membership.html">
+                    <li>Membership</li>
+                </a>
+                <a onclick="toggleMenu()" href="our-branches.html">
+                    <li>Our Branches</li>
+                </a>
+                <a onclick="toggleMenu()" href="contact-us.html">
+                    <li>Contact</li>
+                </a>
+            </ul>
+            <a onclick="toggleMenu()" href="join-us-membership.html" class="btn-container">
+                <button>Join Now</button>
+            </a>
+        </nav>
+    </header>
+    <main onclick="closeMenu()">
+        <section id="heroSection">
+            <div class="hero-content">
+                <div class='slide-all-content'>
+                    <div class='slide-text-box'>
+                        <div class='slide-text'>
+                            MEMBERSHIP OPTIONS
+                        </div>
+                        <div class="slide-text">
+                            TAILORED TOY UR FITNESS
+                        </div>
+                        <div class="slide-text">
+                            GOALS: JOIN STRUCTURE
+                        </div>
+                        <div class="slide-text">
+                            COMMUNITY TODAY!
+                        </div>
+                    </div>
+                    <div class='text-side-line'></div>
+                </div>
+                <a href="join-us-membership.html">
+                    <button class='slide-btn'>
+                        Join Now
+                    </button>
+                </a>
+            </div>
+        </section>
+        <div class='divider'></div>
+        <section id="ourProcessSec">
+            <div class='my-container'>
+                <div class='our-pro-title'>Our Process</div>
+                <div class="goals-row">
+                    <div class="my-card">
+                        <div class="circle">
+                            <i class="fas fa-chart-bar icon"></i>
+                        </div>
+                        <div class="title">ANALYZE YOUR GOAL</div>
+                    </div>
+
+                    <div class="my-card">
+                        <div class="circle">
+                            <i class="fas fa-flask icon"></i>
+                        </div>
+                        <div class="title">WORK HARD ON IT</div>
+                    </div>
+
+                    <div class="my-card">
+                        <div class="circle">
+                            <i class="fas fa-tachometer-alt icon"></i>
+                        </div>
+                        <div class="title">IMPROVE YOU</div>
+                    </div>
+
+                    <div class="my-card">
+                        <div class="circle">
+                            <i class="fas fa-gem icon"></i>
+                        </div>
+                        <div class="title">ACHIEVE GOALS</div>
+                    </div>
+                </div>
+                <div class='my-stat-row'>
+
+                    <div class="my-stat-card">
+                        <i class="fas fa-map-signs stat-icon"></i>
+                        <div class="card-num">3</div>
+                        <div class="stat-title">Branches</div>
+                    </div>
+
+                    <div class="my-stat-card" id="rightStatCard">
+                        <i class="fas fa-dumbbell stat-icon"></i>
+                        <div class="card-num">232+</div>
+                        <div class="stat-title">Machines</div>
+                    </div>
+
+                    <div class="my-stat-card">
+                        <i class="fas fa-anchor stat-icon"></i>
+                        <div class="card-num">40+</div>
+                        <div class="stat-title">Trainers</div>
+                    </div>
+
+                    <div class="my-stat-card" id="rightStatCard">
+                        <i class="fas fa-swimming-pool stat-icon"></i>
+                        <div class="card-num">23</div>
+                        <div class="stat-title">Meters Pool</div>
+                    </div>
+
+                    <div class="my-stat-card" id="lastStatCard">
+                        <i class="fas fa-bolt stat-icon"></i>
+                        <div class="card-num">12889+</div>
+                        <div class="stat-title">Clients</div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+        <section id="getStatedSec">
+            <div>
+                <div class='title-box'>
+                    <div class='get-started-row'>
+                        <div class='l-side-icon'>
+                            <i class="fas fa-angle-double-down side-icon"></i>
+                        </div>
+                        <div class='ready-title'>READY TO GET STARTES?</div>
+                        <div class='r-side-icon'>
+                            <i class="fas fa-angle-double-down side-icon"></i>
+                        </div>
+                    </div>
+                    <div class='l-r-img-row'>
+                        <div class="left-img-con">
+                            <div class='bg-img-l'>
+                                <a href="#" class="our-btn">
+                                    OUR CLASSES
+                                </a>
+                            </div>
+                        </div>
+                        <div class="right-img-con">
+                            <div class='bg-img-r'>
+                                <a href="#" class="our-btn">
+                                    OUR BRANCHES
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="description-container para-contant">
+                    <div class='desc desc-right'>
+                        <div class=''>
+                            <div class='para-title '>Equipment</div>
+                            <div class='para-text'>At Structure Health & Fitness, we are dedicated to
+                                transforming your fitness aspirations into reality. Our range of fitness equipment is
+                                meticulously designed to cater to all your exercise needs, whether you’re a beginner or
+                                a seasoned athlete. From treadmills that propel you towards your cardio goals to
+                                weightlifting apparatus that build strength, our high-quality products ensure a holistic
+                                workout experience. Join us on the path to a healthier lifestyle, backed by the
+                                reliability of Structure Health & Fitness.</div>
+                        </div>
+                        <div class=''>
+                            <img class='para-img' src="assets/images/fg-images/para_1.webp" alt='description' />
+                        </div>
+                    </div>
+                    <div class='desc desc-left'>
+                        <div class=''>
+                            <img class='para-img' src="assets/images/fg-images/para_2.webp" alt='description' />
+                        </div>
+                        <div class=''>
+                            <div class='para-title right-para-title'>Community Cares</div>
+                            <div class='para-text'>Welcome to our vibrant gym community, where support is the foundation
+                                of our fitness journey. Join us to experience a welcoming atmosphere filled with
+                                like-minded individuals. Our monthly challenges keep you motivated and striving for your
+                                goals, while our online platforms proudly showcase your transformation to inspire
+                                others.</div>
+                        </div>
+                    </div>
+                    <div class='desc desc-right'>
+                        <div class=''>
+                            <div class='para-title'>Personal Training At Its Best</div>
+                            <div class='para-text'>Our personalized training program is designed to help you achieve
+                                your fitness goals efficiently. Our expert trainers not only guide you through effective
+                                workouts but also provide tailored diet charts to optimize your progress. Attain your
+                                fitness potential with our transformative program. Start your journey today.</div>
+                        </div>
+                        <div class=''>
+                            <img class='para-img' src="assets/images/fg-images/para_3.webp" alt='description' />
+                        </div>
+                    </div>
+                    <div class='desc desc-left'>
+                        <div class=''>
+                            <img class='para-img' src="assets/images/fg-images/para_4.webp" alt='description' />
+                        </div>
+                        <div class=''>
+                            <div class='para-title right-para-title'>Our Amenities</div>
+                            <div class='para-text'>Experience a gym like no other with our top-notch amenities. Store
+                                your belongings in secure lockers, then unwind in our pool, jacuzzi, and sauna. Treat
+                                yourself to a rejuvenating massage at our spa or grab a healthy refreshment at our
+                                health bar. Our well-maintained shower facilities ensure you leave feeling refreshed and
+                                ready to conquer the day. Discover the perfect balance of fitness and relaxation at
+                                Structure Health & Fitness.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="testimonials">
+            <div class='testimonials-body'>
+                <div class='testimonials-contant '>
+                    <h2 class='testimonials-text'>TESTIMONIALS</h2>
+                    <p class='t-text'>
+                        I Joined Them Last Month And So Far I'm Having A Wonderful Experience Here. The Staff Is
+                        Friendly And Well Mannered. The Place Is Surrounded By Elite-class People As It Is One Of The
+                        Most Expensive Gyms And Fitness Clubs In Lahore. I'm Having Swimming Sessions There And So Far
+                        It Is My Best Experience.
+                    </p>
+                    <div style="width: 200px; height: 200px; display: flex; justify-content: center; padding: 24px 0;">
+                        <img class='testimonials-img' src="assets/images/fg-images/testimonials-img.webp" />
+                    </div>
+
+                    <h2 class='testimonials-name'>SHAHZAIB HAYAT KHAN</h2>
+                    <h2 class='testimonials-pro'>CROSSFIT PROFESSIONAL</h2>
+                </div>
+            </div>
+        </section>
+        <section id="gymFactSec">
+            <div class='gym-fact-con'>
+                <h2 class='gym-fact-heading'>GYM FACTS</h2>
+                <p>
+                    You dream. You plan. You reach. There will be obstacles
+                </p>
+                <div class='fact-item-con'>
+                    <div class='fact-item-row'>
+                        <div class='fact-card'>
+                            <div class='fact-num'>12,889</div>
+                            <div class='fact-title'>Club Members</div>
+                        </div>
+                        <div class='fact-card'>
+                            <div class='fact-num'>40</div>
+                            <div class='fact-title'>Club Trainers</div>
+                        </div>
+                        <div class='fact-card'>
+                            <div class='fact-num'>50</div>
+                            <div class='fact-title'>Fitness Classes</div>
+                        </div>
+                        <div class='fact-card'>
+                            <div class='fact-num'>232</div>
+                            <div class='fact-title'>Gym Equipment</div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <section id="ComfortZoneSec">
+            <div>
+                <div class='ComfortZone-body'>
+                    <div class='ComfortZone-contant'>
+                        <h2 class='ComfortZone-heading-1'>GET OUT OF YOUR</h2>
+                        <h2 class='ComfortZone-heading-2'>
+                            COMFORT ZONE
+                        </h2>
+                        <div class='ComfortZone-text'>Success usually comes to those who are too busy
+                            to be looking for it.</div>
+                        <div class='ComfortZone-text'> The body achieves what the mind believes.</div>
+                        <a href='join-us-membership.html' class='ComfortZone-btn'>JOIN US TODAY</a>
+                    </div>
+                </div>
+                <div class='divider'></div>
+            </div>
+        </section>
+        <footer>
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-about">
+                        <h2>Structure Health & Fitness</h2>
+                        <p>Structure Health & Fitness is The Best Gym For Ladies & Gents Located In Gulberg Lahore,
+                            Pakistan. A Top-notch Health Fitness Club With Experienced Trainers & Latest Gym Equipment.
+                        </p>
+                        <div class="footer-follow">
+                            <h3>Follow Us</h3>
+                            <div class="social-icons">
+                                <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                                <a href="https://x.com/"><i class="fab fa-twitter"></i></a>
+                                <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+                                <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
+                                <a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="footer-links">
+                        <h3>Useful Links</h3>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="our-branches.html">Our Branches</a></li>
+                            <li><a href="why-us.html">Why Us</a></li>
+                            <li><a href="#">Trainers</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="contact-us.html">Contact Us</a></li>
+                            <li><a href="#">Work With Us</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-hours">
+                        <h3>Opening Hours</h3>
+                        <table class="hours-table">
+                            <tr class="header-row">
+                                <th>
+                                    <button class="branch-button active" data-branch="gulberg">Gulberg Lahore</button>
+                                </th>
+                                <th>
+                                    <button class="branch-button" data-branch="dha">DHA Lahore</button>
+                                </th>
+                                <th>
+                                    <button class="branch-button" data-branch="johar">Johar Town Lahore</button>
+                                </th>
+                            </tr>
+                            <tr>
+                                <td colspan="3" style="padding: 0;">
+                                    <div class="hours-content">
+
+                                        <div class="branch-schedule active" id="gulberg-schedule">
+                                            <div class="schedule-item">
+                                                <span class="schedule-day">Monday</span>
+                                                <span class="schedule-time">06:00 AM - 11:00 PM</span>
+                                            </div>
+                                            <div class="schedule-item">
+                                                <span class="schedule-day">Tuesday</span>
+                                                <span class="schedule-time">06:00 AM - 11:00 PM</span>
+                                            </div>
+                                            <div class="schedule-item">
+                                                <span class="schedule-day">Wednesday</span>
+                                                <span class="schedule-time">06:00 AM - 11:00 PM</span>
+                                            </div>
+                                            <div class="schedule-item">
+                                                <span class="schedule-day">Thursday</span>
+                                                <span class="schedule-time">06:00 AM - 11:00 PM</span>
+                                            </div>
+                                            <div class="schedule-item">
+                                                <span class="schedule-day">Friday</span>
+                                                <span class="schedule-time">06:00 AM - 11:00 PM</span>
+                                            </div>
+                                            <div class="schedule-item">
+                                                <span class="schedule-day">Saturday</span>
+                                                <span class="schedule-time">09:00 AM - 10:00 PM</span>
+                                            </div>
+                                            <div class="schedule-item">
+                                                <span class="schedule-day">Sunday</span>
+                                                <span class="schedule-time">10:00 AM - 07:00 PM</span>
+                                            </div>
+                                        </div>
+
+
+                                        <div class="branch-schedule" id="dha-schedule">
+                                            <div class="schedule-item">
+                                                <span class="schedule-day">Monday</span>
+                                                <span class="schedule-time">07:00 AM - 10:00 PM</span>
+                                            </div>
+                                            <div class="schedule-item">
+                                                <span class="schedule-day">Tuesday</span>
+                                                <span class="schedule-time">07:00 AM - 10:00 PM</span>
+                                            </div>
+                                            <div class="schedule-item">
+                                                <span class="schedule-day">Wednesday</span>
+                                                <span class="schedule-time">07:00 AM - 10:00 PM</span>
+                                            </div>
+                                            <div class="schedule-item">
+                                                <span class="schedule-day">Thursday</span>
+                                                <span class="schedule-time">07:00 AM - 10:00 PM</span>
+                                            </div>
+                                            <div class="schedule-item">
+                                                <span class="schedule-day">Friday</span>
+                                                <span class="schedule-time">07:00 AM - 10:00 PM</span>
+                                            </div>
+                                            <div class="schedule-item">
+                                                <span class="schedule-day">Saturday</span>
+                                                <span class="schedule-time">10:00 AM - 10:00 PM</span>
+                                            </div>
+                                            <div class="schedule-item">
+                                                <span class="schedule-day">Sunday</span>
+                                                <span class="schedule-time">12:00 PM - 07:00 PM</span>
+                                            </div>
+                                        </div>
+
+
+                                        <div class="branch-schedule" id="johar-schedule">
+                                            <div class="schedule-item">
+                                                <span class="schedule-day">Monday</span>
+                                                <span class="schedule-time">06:00 AM - 10:00 PM</span>
+                                            </div>
+                                            <div class="schedule-item">
+                                                <span class="schedule-day">Tuesday</span>
+                                                <span class="schedule-time">06:00 AM - 10:00 PM</span>
+                                            </div>
+                                            <div class="schedule-item">
+                                                <span class="schedule-day">Wednesday</span>
+                                                <span class="schedule-time">06:00 AM - 10:00 PM</span>
+                                            </div>
+                                            <div class="schedule-item">
+                                                <span class="schedule-day">Thursday</span>
+                                                <span class="schedule-time">06:00 AM - 10:00 PM</span>
+                                            </div>
+                                            <div class="schedule-item">
+                                                <span class="schedule-day">Friday</span>
+                                                <span class="schedule-time">06:00 AM - 10:00 PM</span>
+                                            </div>
+                                            <div class="schedule-item">
+                                                <span class="schedule-day">Saturday</span>
+                                                <span class="schedule-time">10:00 AM - 09:00 PM</span>
+                                            </div>
+                                            <div class="schedule-item">
+                                                <span class="schedule-day">Sunday</span>
+                                                <span class="schedule-time">Closed</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="footer-bottom">
+                <div class="container">
+                    <p>Copyright © 2023 – 2024 |<span class="footer-bottom-hover"> Structure Health & Fitness</span></p>
+                </div>
+            </div>
+        </footer>
+    </main>
+
+    <script src="scripts/home-script.js">
+    </script>
+</body>
+
+</html>
